@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading-section {
+  padding: 1rem 3rem;
+  background-color: #6a7681;
+  height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.navbar-container {
+  display: flex;
+}
+
+.nav-items {
+  display: flex;
+  margin-left: 15rem;
+  gap: 4rem;
+  color: #fff;
+}
+
+.nav-items li {
+  list-style-type: none;
+}
+
+.lets-talk {
+  margin-left: 2rem;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.nav-items button {
+  padding: 0.5rem 1.2rem;
+  margin-top: -1rem;
+}
+
+.navbar-secondary {
+  margin: 4rem 3rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.first-img {
+  height: 30rem;
+}
+
+.header-caption {
+  margin-top: 1rem;
+  font-size: 50px;
+}
+
+.header-input {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  background-color: #fff;
+  margin-top: 2rem;
+}
+
+.header-description {
+  margin-top: 2rem;
+}
+.email,
+.header-button {
+  border: none;
+}
+
+.email {
+  padding-right: 2rem;
+  padding-left: 1rem;
+}
+
+.header-button {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: rgb(92, 170, 118);
+  color: #fff;
+}
+
+.target-content {
+  margin-top: 4rem;
+}
+
+.target-content-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.target-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 10rem;
+  text-align: center;
+}
+
+.target-item .number {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 0.3rem;
+}
+
+.target-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60rem;
+  height: 30rem;
+}
+
+.effective-design-heading {
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.effective-design-content {
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 6rem;
+  gap: 10rem;
+}
+
+.effective-content-leftside h1 {
+  font-size: 3rem;
+}
+
+.effective-content-leftside p {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.effective-content-button {
+  margin-top: 2rem;
+  background: transparent;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: rgb(92, 170, 118);
+  border: none;
+  color: #fff;
+}
+
+.third-image {
+  width: 90%;
+  margin-top: -2rem;
+}
+
+.digital-marketing {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8rem;
+  gap: 10rem;
+  margin-right: 5rem;
+}
+
+.digital-marketing-img {
+  height: 35rem;
+  margin-left: 10rem;
+}
+
+.digital-marketing-content {
+  margin-top: 4rem;
+}
+
+.digital-marketing-content-heading {
+  font-size: 3rem;
+  padding-bottom: 1.2rem;
+}
+
+.digital-marketing-content-description {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+.digital-marketing-button {
+  background: transparent;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: rgb(92, 170, 118);
+  border: none;
+  color: #fff;
+}
+
+.judge-content {
+  margin-top: 6rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+.Judge-rightside-image {
+  height: 25rem;
+}
+
+.judge-leftside-heading {
+  margin-top: 1rem;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.judge-leftside-description {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+.team-content {
+  margin-top: 9rem;
+}
+
+.team-content {
+  display: flex;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  gap: 20rem;
+  margin-bottom: 2rem;
+}
+
+.team-content-heading {
+  font-size: 3rem;
+  margin-top: -2rem;
+}
+
+.team-cards {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-cards img {
+  height: 32rem;
+}
+
+.card-name {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.card-description {
+  width: 300px;
+}
+
+.team-cards-button {
+  margin-top: 2rem;
+  margin-left: 45vw;
+  background: transparent;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: rgb(92, 170, 118);
+  border: none;
+  color: #fff;
+  margin-bottom: 6rem;
+}
+
+.footer-notes {
+  color: #fff;
+  background-color: rgb(31, 28, 28);
+}
+
+.top {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  justify-content: space-between;
+}
+
+.horizantal-line {
+  margin: 3rem 6rem;
+}
+
+.Products-links {
+  display: flex;
+  margin-left: 6rem;
+  margin-right: 5rem;
+  padding-bottom: 4rem;
+  justify-content: space-between;
+}
+
+.products li {
+  list-style: none;
+}
+
+.link_heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.products a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 25px;
+}
