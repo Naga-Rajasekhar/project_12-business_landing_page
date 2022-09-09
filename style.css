@@ -302,3 +302,201 @@
   color: #fff;
   line-height: 25px;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-items li:nth-child(1) {
+    display: none;
+  }
+  .nav-items li:nth-child(2) {
+    display: none;
+  }
+  .nav-items li:nth-child(3) {
+    display: none;
+  }
+  .nav-items li:nth-child(4) {
+    display: none;
+  }
+  .nav-items li:nth-child(5) {
+    display: none;
+  }
+  .nav-items li:nth-child(6) {
+    display: none;
+  }
+
+  .nav-items li {
+    margin-left: -6rem;
+    margin-top: 1rem;
+    width: 10rem;
+  }
+
+  .navbar-secondary {
+    display: grid;
+    margin-left: 2rem;
+  }
+
+  .first-img {
+    width: 330px;
+    height: 300px;
+  }
+
+  .header-caption {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -3.2rem;
+  }
+
+  .header-description {
+    text-align: center;
+    margin-top: -0.1rem;
+  }
+
+  .header-input {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .target-content {
+    margin-top: 5px;
+  }
+
+  .target-content-heading {
+    font-size: 2rem;
+  }
+
+  .target-items {
+    width: 26rem;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  .target-image {
+    width: 330px;
+    height: 300px;
+  }
+
+  .effective-design-heading {
+    font-size: 30px;
+  }
+
+  .effective-design-content {
+    margin-top: -2rem;
+    margin-left: 4.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .effective-content-leftside h1 {
+    font-size: 2rem;
+    width: 22rem;
+    text-align: center;
+  }
+
+  .effective-content-description {
+    width: 22rem;
+    text-align: center;
+  }
+
+  .effective-content-button {
+    margin-left: 7rem;
+  }
+
+  .effective-content-rightside {
+    margin-top: -5rem;
+  }
+
+  .digital-marketing {
+    display: grid;
+  }
+
+  .digital-marketing-img {
+    width: 380px;
+    height: 300px;
+    margin-left: 8rem;
+  }
+
+  .digital-marketing-content {
+    margin-top: -6rem;
+    width: 26rem;
+    margin-left: 7rem;
+  }
+
+  .digital-marketing-content-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .digital-marketing-content-description {
+    text-align: center;
+  }
+
+  .digital-marketing-button {
+    margin-left: 8rem;
+  }
+
+  .judge-content {
+    display: grid;
+  }
+
+  .judge-leftside-heading {
+    margin-top: -2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .judge-leftside-content .digital-marketing-button {
+    margin-left: 5.5rem;
+  }
+
+  .judge-rightside-content {
+    margin-top: -5rem;
+    margin-left: -1rem;
+  }
+  .Judge-rightside-image {
+    width: 330px;
+    height: 300px;
+  }
+
+  .team-content {
+    display: grid;
+    margin-top: 5rem;
+  }
+
+  .team-content-heading {
+    font-size: 2rem;
+    margin-left: 2.5rem;
+  }
+
+  .team-content-description {
+    margin-top: -18rem;
+    text-align: center;
+  }
+
+  .team-cards {
+    margin-top: -10rem;
+    display: grid;
+  }
+
+  .team-cards-button {
+    margin-left: 10rem;
+  }
+
+  .top {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .logo-details {
+    margin-left: 6rem;
+  }
+
+  .Products-links {
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .products{
+    text-align: center;
+  }
+}
